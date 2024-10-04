@@ -1,0 +1,290 @@
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v32-latin-500.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v32-latin-700.woff2') format('woff2'); 
+  }
+@font-face {
+    font-display: swap; 
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/hind-madurai-v11-latin-regular.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/hind-madurai-v11-latin-600.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/hind-madurai-v11-latin-700.woff2') format('woff2'); 
+  }
+
+  :root{
+    --color-btn: #D23166;
+    --color-text: #0F0101;
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif ;
+    font-family: "hind-madurai", sans-serif ;
+  }
+  .container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+/* header styles start */
+.site-header {
+    padding-top: 10px;
+    padding: 16px;
+    background-color: rgb(242, 206, 218, 0.3);
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-link {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    color: var(--color-text);
+    opacity: 0.6;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.header-link:hover{
+    color: var(--color-btn);
+}
+.header-btn {
+    width: 165px;
+    padding: 14px;
+    background-color: var(--color-btn);
+    color: #FAFAFA;
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+    border: 2px solid transparent;
+  
+}
+.header-btn:hover{
+    background-color: #FAFAFA;
+    color: var(--color-btn);
+    border-color: var(--color-btn);
+    transform: scale(1.1);
+    border-radius: 20%;
+}
+/* header styles end */
+
+/* hero styles start */
+.hero-section {
+  background-color: rgb(242, 206, 218, 0.3);
+  padding-top: 60px;
+}
+
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-content-wrapper {
+  width: 615px;
+}
+.hero-count {
+  display: block;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.1em;
+  color: var(--color-text);  
+  margin-bottom: 6px;
+}
+.hero-title {
+  font-family: Hind Madurai;
+  font-size: 57.33px;
+  font-weight: 800;
+  line-height: 69.08px;
+  color: var(--color-text);
+  opacity: 0.9;
+  margin-bottom: 35px;  
+}
+.hero-title > span{
+  font-family: Hind Madurai;
+  font-size: 57.33px;
+  font-weight: 800;
+  line-height: 69.08px;
+  color: var(--color-btn);
+  opacity: 0.9;
+}
+.hero-text {
+  font-family: Hind Madurai;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: var(--color-text);
+  opacity: 0.6;  
+  margin-bottom: 50px;
+}
+.hero-btn {
+   width: 165px;
+   padding: 16px;
+   background-color: var(--color-btn);
+   color: #FAFAFA;
+   border: none;
+   border-radius: 5px;
+   border: 2px solid transparent;
+   transition: all 0.3s;
+   cursor: pointer;
+   font-family: Hind Madurai;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 22.08px;   
+}
+.hero-btn:hover{
+   background-color: #FAFAFA;
+   color: var(--color-btn);
+   border-color: var(--color-btn);
+   border-radius: 20%;
+   transform: scale(1.1);
+}
+/* hero styles end */
+
+/* shipping styles start */
+.shipping-section {
+  padding: 60px;
+}
+
+.shipping-list {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.shipping--item {
+  width: 250px;
+  border: 1px solid #00000008;
+  border-radius: 7px;
+  padding: 33px 26px 26px 26px;
+  transition: all 0.3s;
+}
+.shipping--item:hover{
+  box-shadow: 20px 20px 50px 0px #0000001A;
+}
+.shipping-img {
+  margin-bottom: 25px;
+}
+.shipping-title {
+  font-family: Hind Madurai;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.6px;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.shipping-text {
+  font-family: Hind Madurai;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.32px;
+  color: #000000;
+  opacity: 0.6;
+}
+/* shipping styles end */
+
+/* brown styles start */
+.brown-section {
+  background-color: #F8EDF0;
+}
+
+.brown-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brown-content-wrapper {
+  width: 442px;
+}
+.brown-title {
+  width: 300px;
+  font-family: Hind Madurai;
+  font-size: 44.2px;
+  font-weight: 600;
+  line-height: 48.84px;
+  color: var(--color-text);  
+  margin-bottom: 16px;
+}
+.brown-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-text);
+  opacity: 0.6;  
+  margin-bottom: 35px;
+}
+.brown-btn {
+  width: 165px;
+  padding: 15px;
+  background-color: var(--color-btn);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  color: #FAFAFA;  
+  border: none;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.brown-btn:hover{
+  background-color: #FAFAFA;
+  color: var(--color-btn);
+  border-radius: 20%;
+  border-color: var(--color-btn);
+  transform: scale(1.1);
+}
+/* brown styles end */
