@@ -1,0 +1,126 @@
+.site-footer {
+    background-color: #0A0808;  
+    padding: 70px 0 100px 0;
+}
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-first-child {
+    width: 207px;
+}
+.footer-text {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.76px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+.footer-count {
+    display: block;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.06px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.footer-link-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-second-child {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-second-count{
+    display: block;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    color: #FFFFFF;
+    margin-bottom: 8px;    
+}
+.footer-second-child-link {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.footer-third-child {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-third-child-link {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 0.8;  
+}
+.footer-last-child {
+    width: 388px;
+}
+.footer-last-child-count {
+    display: block;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+}
+.footer-form {
+    margin-bottom: 15px;
+}
+.footer-label {
+    position: relative;
+    width: 220px;
+}
+.footer-input {
+    width: 300px;
+    background-color: transparent;
+    padding:18px 15px 18px 20px;
+    border: 2px solid #D64374;
+    border-radius: 5px;
+    outline-color: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    color: #FFFFFF;
+    opacity: 0.6;  
+}
+
+.footer-btn {
+    position: absolute;
+    width: 125px;
+    padding: 16px;
+    background-color:#D23166;
+    border-radius: 5px;
+    border: none;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    color: #FFFFFF;    
+}
+.footer-last-child-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}

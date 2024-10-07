@@ -1,0 +1,186 @@
+.product-section {
+    margin-bottom: 117px ;
+  }
+  
+  .product-title {
+    font-family: Hind Madurai;
+    font-size: 44.2px;
+    font-weight: 600;
+    line-height: 61px;
+    text-align: center;
+    color: #150101;
+    margin-bottom: 64px;
+
+  }
+.product-list{
+    margin-bottom: 109px;
+  
+}
+  .product-item {
+    display: flex; 
+    justify-content: center;
+    gap: 40px;
+  }
+  .product-link{
+ 
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    text-align: left;
+    color: #000000;
+    opacity: 0.6;
+  }
+  .product-wrapper-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 35px;
+  }
+
+  .product-content-wrapper-top {
+    width: 454px;
+  }
+  .product-subtitle {
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 11px;
+  }
+  .product-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+    opacity: 0.7;
+    margin-bottom: 28px;
+    
+  }
+  .product--count {
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 35.88px;
+    color: #000000;
+    
+  }
+  .product-text-two{
+    display: inline-block;    
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.6px;
+    text-align: left;
+    color: #000000;
+    opacity: 0.7;
+    text-decoration: line-through;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+  .product-btn {
+    display: block;
+    width: 165px;
+    padding: 15px;
+    background-color: #D64374;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: center;
+    color: #FAFAFA;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  .product-btn:hover{
+    background-color: #FAFAFA;
+    color: #D64374;
+    border-radius: 20%;
+    transform: scale(1.1);
+    border-color: #D64374;
+
+  }
+  .product-wrapper-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+  }
+  .product-content-wrapper-center{
+    width: 444px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+  }
+  .product-text-center{
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    color: #000000;
+    opacity: 0.7;
+  }
+  .product-wrapper-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 117px;
+  }
+  .product-content-wrapper-end {
+    width: 454px;
+  }
+  
+  .product-warpper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .product-content-wrapper {
+    width: 320px;
+  }
+  .content-warpper{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 46px;
+  }
+  .count {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    color: #000000;
+    
+  }
+  .text {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.06px;
+    color: #000000;
+    opacity: 0.7;    
+  }
+  .wrapper {
+    margin-bottom: 56px;
+  }
+  .content {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;    
+  }
+  .wrapper-img {
+    display: flex;align-items: center;
+    gap: 26px;
+  }

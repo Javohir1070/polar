@@ -1,0 +1,39 @@
+.shipping-section {
+    padding: 60px;
+  }
+  
+  .shipping-list {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .shipping--item {
+    width: 250px;
+    border: 1px solid #00000008;
+    border-radius: 7px;
+    padding: 33px 26px 26px 26px;
+    transition: all 0.3s;
+  }
+  .shipping--item:hover{
+    box-shadow: 20px 20px 50px 0px #0000001A;
+  }
+  .shipping-img {
+    margin-bottom: 25px;
+  }
+  .shipping-title {
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.6px;
+    color: #000000;
+    margin-bottom: 9px;
+  }
+  .shipping-text {
+    font-family: Hind Madurai;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.32px;
+    color: #000000;
+    opacity: 0.6;
+  }

@@ -1,0 +1,52 @@
+.site-header {
+    padding-top: 10px;
+    padding: 16px;
+    background-color: rgb(242, 206, 218, 0.3);
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-link {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    color: var(--color-text);
+    opacity: 0.6;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.header-link:hover{
+    color: var(--color-btn);
+}
+.header-btn {
+    width: 165px;
+    padding: 14px;
+    background-color: var(--color-btn);
+    color: #FAFAFA;
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+    border: 2px solid transparent;
+  
+}
+.header-btn:hover{
+    background-color: #FAFAFA;
+    color: var(--color-btn);
+    border-color: var(--color-btn);
+    transform: scale(1.1);
+    border-radius: 20%;
+}
